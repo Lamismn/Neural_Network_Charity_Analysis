@@ -22,4 +22,4 @@ The dataset contains the following entries for each of the organization:
 The study uses neural networks to create a deep learning model that can predict the authenticity of teh organization based on the data provided. The target is the (IS SUCCESSFUL) column, & the parameters are the other columns (other than name & EIN)
 
 The dataset is divided into train & test sections, the train is used to train the model, while the test is used to test the performance of the trained model.
-### Results
+## Results
