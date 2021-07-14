@@ -23,3 +23,15 @@ The study uses neural networks to create a deep learning model that can predict 
 
 The dataset is divided into train & test sections, the train is used to train the model, while the test is used to test the performance of the trained model.
 ## Results
+The data was preprocessed before performing the analysis, preprocessing involved the following:
+1. dividing the data columns to target variables & features, the target value is the IS_SUCCESSFUl column, since the purpose of the model is to determine if the money given to a certain charity is a good investment
+2. The features for this models are the different parameters that an application shows (Application type, affiliated sector, classification, Income amount & if there are any special considerations)
+3. EIN & Name, are useless for the analysis & were removed in the preprocessing.
+
+Then the dataset was divided to train & test parts, thhe train was used to train the model & test is to test the performance, a neural network was used to create the model.
+1. Two hodden layers were used for the initial analysis, the first with 80 neurons & the second with 30.
+2. The initial model achieved an accuracy level of 0.72, which is less than the required 0.75
+3. The model was optimized to increase the accuracy, by adding neurons, which increased  the accuracy to 0.73, & adding an extra hidden layer, which also achieved 0.73
+
+## Summary
+The model required performance was not achieved, which means that we will need to work more on the data to achieve it, firstly by reducing the parameters, by decreasing the tested variables & then by optimizing the model, increasing neurons to the layers helped more than adding a layer.
